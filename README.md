@@ -5,12 +5,15 @@ This is a project to reproduce the shell behavior of redirecting STDIN and STDOU
 Compile main or bonus part of the project and then type the one of the commands listed below.
 
 ```./pipex infile cmd1 cmd2 outfile``` - main part
+
 The arguments will be processed as same as < infile cmd1 | cmd2 > outfile on the shell.
 
 ```./pipex infile cmd1 cmd2 cmd3 ... cmdn outfile``` - bonus part
+
 The arguments will be processed as same as < infile cmd1 | cmd2 | cmd3 | ... cmdn > outfile on the shell.
 
 The bonus part supports not only overwriting the output file, but also adding to it. For this, the first argument must be set here_doc, as in the example below:
+
 ```./pipex here_doc STOP cmd1 cmd2 cmd3 ... cmdn outfile```
 
 
