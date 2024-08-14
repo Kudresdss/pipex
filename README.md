@@ -1,8 +1,10 @@
 # pipex
 Fourth project of 42cursus.
 
-This is a project to reproduce the shell behavior of redirecting STDIN and STDOUT to files and emulating pipes. Runs only on macOS and linux systems.
+This is a project to reproduce the shell behavior of redirecting STDIN and STDOUT to files and emulating pipes.
 Compile main or bonus part of the project and then type the one of the commands listed below.
+
+Runs only on macOS and linux systems.
 
 ```./pipex infile cmd1 cmd2 outfile``` - main part \
 The arguments will be processed as same as < infile cmd1 | cmd2 > outfile on the shell.
